@@ -15,7 +15,7 @@
 =================*/
 
 #polular-destinations{
-    padding: 140px 0px 140px 180px;
+    padding: 140px 180px 140px 180px;
     position: relative;
 }
 
@@ -152,7 +152,7 @@ img{
     =================*/
 
     #polular-destinations{
-        padding: 140px 0px 140px 32px;
+        padding: 140px 32px 140px 32px;
     }
 
     /*==============
@@ -192,7 +192,7 @@ img{
     }
 }
 
-@media (max-width:933px){
+@media (max-width:925px){
 
     img{
         height: 456px;
@@ -209,34 +209,20 @@ img{
     ================*/
 
     #arrow-left{
-        position: absolute;
         top: 93%;
         right: 50%;
-        width: 50px;
-        height: 56px;
-        background-color: #172432;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
     }
 
 
     #arrow-right{
-        position: absolute;
         top: 93%;
         right: 40%;
-        width: 50px;
-        height: 56px;
-        background-color: #FF7757;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
     }
 
 }
 
 @media (max-width:600px){
-        /*==============
+    /*==============
     PAGE BUTTONS
     ================*/
 
@@ -287,12 +273,7 @@ img{
     }
 
     hr{
-        margin: 0;
         width: 227px;
-        background-color: #FF7757;
-        height: 3px;
-        border: 0;
-        opacity: 1;
     }
 
     /*==============
@@ -323,4 +304,13 @@ img{
         font-family: var(--font-padrao);
     }
 
+}
+
+@media(max-width:321px){
+    .gallery{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+        position: relative;
+    }
 }
