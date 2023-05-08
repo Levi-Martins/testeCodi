@@ -195,9 +195,8 @@ img{
 @media (max-width:933px){
 
     img{
-        height: 661px;
+        height: 456px;
         width: 94.5vw;
-        border-radius: 26px;
     }
 
     #polular-destinations{
@@ -273,9 +272,18 @@ img{
         font-size: 40px;
     }
 
+    #polular-destinations > p{
+        font-size: 18px;
+        padding-right: 10px;
+    }
 
     #polular-destinations{
         padding: 140px 0px 140px 10px;
+    }
+
+    img{
+        height: 320px;
+        width: 94.5vw;
     }
 
     hr{
@@ -292,28 +300,14 @@ img{
     ================*/
 
     #arrow-left{
-        position: absolute;
-        top: 93%;
-        right: 55%;
-        width: 50px;
-        height: 56px;
-        background-color: #172432;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
+        top: 90%;
+        right: 53%;
     }
 
 
     #arrow-right{
-        position: absolute;
-        top: 93%;
-        right: 35%;
-        width: 50px;
-        height: 56px;
-        background-color: #FF7757;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
+        top: 90%;
+        right: 30%;
     }
 
 }
