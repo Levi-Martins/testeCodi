@@ -169,7 +169,6 @@ img{
     }
 }
 
-
 @media (max-width:1152px){
     /*===============
      PAGE CONTENT
@@ -186,26 +185,27 @@ img{
         right: 8%;
     }
 
-
     #arrow-right{
         right: 2%;
     }
 }
 
 @media (max-width:925px){
+    /*===============
+        PAGE CONTENT
+    =================*/
+
+    #polular-destinations{
+        padding: 140px 0px 140px 20px;
+    }
 
     img{
         height: 456px;
         width: 94.5vw;
     }
 
-    #polular-destinations{
-        padding: 140px 0px 140px 20px;
-    }
-
-
     /*==============
-    PAGE BUTTONS
+        PAGE BUTTONS
     ================*/
 
     #arrow-left{
@@ -227,32 +227,25 @@ img{
     ================*/
 
     #arrow-left{
-        position: absolute;
         top: 93%;
         right: 50%;
-        width: 50px;
-        height: 56px;
-        background-color: #172432;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
     }
 
 
     #arrow-right{
-        position: absolute;
         top: 93%;
         right: 38%;
-        width: 50px;
-        height: 56px;
-        background-color: #FF7757;
-        border-radius: 12px;
-        border: none;
-        cursor: pointer;
     }
 }
 
 @media (max-width:515px){
+    /*===============
+        PAGE CONTENT
+    =================*/
+
+    #polular-destinations{
+        padding: 140px 0px 140px 10px;
+    }
 
     #polular-destinations h1{
         font-size: 40px;
@@ -261,10 +254,6 @@ img{
     #polular-destinations > p{
         font-size: 18px;
         padding-right: 10px;
-    }
-
-    #polular-destinations{
-        padding: 140px 0px 140px 10px;
     }
 
     img{
@@ -291,6 +280,10 @@ img{
         right: 30%;
     }
 
+    /*==============
+    CAROUSEL
+    ================*/
+
     .content-img img{
         width: 16.88px;
     }
@@ -301,16 +294,16 @@ img{
     
     .location{
         font-size: 18px;
-        font-family: var(--font-padrao);
     }
 
 }
 
 @media(max-width:321px){
+    /*==============
+    CAROUSEL
+    ================*/
+
     .gallery{
-        display: flex;
-        flex-wrap: nowrap;
         gap: 10px;
-        position: relative;
     }
 }
