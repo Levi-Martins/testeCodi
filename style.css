@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Rubik&display=swap');
+
+:root{
+    --font-display:'Playfair Display', serif;
+    --font-padrao:'Rubik', sans-serif; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*===============
+     PAGE CONTENT
+=================*/
+
+#polular-destinations{
+    padding: 140px 0px 140px 180px;
+    position: relative;
+}
+
+#polular-destinations h1{
+    font-family: var(--font-display);
+    font-size: 64px;
+    color: #172432;
+    padding: 20px 0px;
+}
+
+hr{
+    margin: 0;
+    width: 356px;
+    background-color: #FF7757;
+    height: 3px;
+    border: 0;
+    opacity: 1;
+}
+
+#polular-destinations > p{
+    font-family: var(--font-padrao);
+    font-size: 24px;
+    color: #767E86;
+    padding-top: 32px;
+    padding-bottom: 100px;
+    margin: 0;
+}
+
+/*==============
+    PAGE BUTTONS
+================*/
+
+#arrow-left{
+    position: absolute;
+    top: 23%;
+    right: 15%;
+    width: 50px;
+    height: 56px;
+    background-color: #172432;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#arrow-right{
+    position: absolute;
+    top: 23%;
+    right: 11%;
+    width: 50px;
+    height: 56px;
+    background-color: #FF7757;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+/*==============
+    CAROUSEL
+================*/
+
+.gallery-wrapper{
+    overflow-x: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    position: relative;
+}
+
+.card-img1{
+    position: relative;
+}
+
+.card-img2{
+    position: relative;
+}
+
+.card-img3{
+    position: relative;
+}
+
+.card-img4{
+    position: relative;
+}
+
+.content-img{
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-family: var(--font-display);
+    font-size: 28px;
+    color: white;
+}
+
+.location{
+    font-size: 24px;
+    font-family: var(--font-padrao);
+}
+
+.content-img img{
+    height: 24px;
+    width: 24px;
+    margin-right: 15px;
+}
+
+img{
+    height: 661px;
+    width: 497px;
+    border-radius: 26px;
+}
+
+.item{
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.6;
+}
+
+.current-item{
+    opacity: 1;
+}
+
+@media (max-width:1440px){
+    /*===============
+        PAGE CONTENT
+    =================*/
+
+    #polular-destinations{
+        padding: 140px 0px 140px 32px;
+    }
+
+    /*==============
+        PAGE BUTTONS
+    ================*/
+
+    #arrow-left{
+        right: 7%;
+    }
+
+
+    #arrow-right{
+        right: 2%;
+    }
+}
+
+
+@media (max-width:1152px){
+    /*===============
+     PAGE CONTENT
+    =================*/
+
+    #polular-destinations > p{
+        max-width: 750px;
+    }
+    /*==============
+        PAGE BUTTONS
+    ================*/
+
+    #arrow-left{
+        right: 8%;
+    }
+
+
+    #arrow-right{
+        right: 2%;
+    }
+}
+
+@media (max-width:933px){
+
+    img{
+        height: 661px;
+        width: 94.5vw;
+        border-radius: 26px;
+    }
+
+    #polular-destinations{
+        padding: 140px 0px 140px 20px;
+    }
+
+
+    /*==============
+    PAGE BUTTONS
+    ================*/
+
+    #arrow-left{
+        position: absolute;
+        top: 93%;
+        right: 50%;
+        width: 50px;
+        height: 56px;
+        background-color: #172432;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    #arrow-right{
+        position: absolute;
+        top: 93%;
+        right: 40%;
+        width: 50px;
+        height: 56px;
+        background-color: #FF7757;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+}
+
+@media (max-width:600px){
+        /*==============
+    PAGE BUTTONS
+    ================*/
+
+    #arrow-left{
+        position: absolute;
+        top: 93%;
+        right: 50%;
+        width: 50px;
+        height: 56px;
+        background-color: #172432;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    #arrow-right{
+        position: absolute;
+        top: 93%;
+        right: 38%;
+        width: 50px;
+        height: 56px;
+        background-color: #FF7757;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media (max-width:515px){
+
+    #polular-destinations h1{
+        font-size: 40px;
+    }
+
+
+    #polular-destinations{
+        padding: 140px 0px 140px 10px;
+    }
+
+    hr{
+        margin: 0;
+        width: 227px;
+        background-color: #FF7757;
+        height: 3px;
+        border: 0;
+        opacity: 1;
+    }
+
+    /*==============
+    PAGE BUTTONS
+    ================*/
+
+    #arrow-left{
+        position: absolute;
+        top: 93%;
+        right: 55%;
+        width: 50px;
+        height: 56px;
+        background-color: #172432;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    #arrow-right{
+        position: absolute;
+        top: 93%;
+        right: 35%;
+        width: 50px;
+        height: 56px;
+        background-color: #FF7757;
+        border-radius: 12px;
+        border: none;
+        cursor: pointer;
+    }
+
+}
